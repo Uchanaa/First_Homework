@@ -6,14 +6,20 @@ import java.util.Scanner;
 public class Main{
 public static void main (String[] args) {
 
-    System.out.println("romel planetaze vcxovrobt?");
+
     Scanner scanner = new Scanner(System.in);
-    String input = scanner.nextLine();
+    boolean b = true;
+    while(b){
+        System.out.println("romel planetaze vcxovrobt?");
+
+        String input = scanner.nextLine();
     switch (input) {
         case "dedamiwaze":
             System.out.println("pasuxi sworia");
+            b = false;
             break;
         case "merkurze":
+            System.out.println("pasuxi arasworia");
 
             break;
         case "veneraze":
@@ -41,7 +47,7 @@ public static void main (String[] args) {
         default:
             System.out.println("gtxovt sheiyvanet planetis dasaxeleba");
             break;
-
+    }
     }
 }
 
