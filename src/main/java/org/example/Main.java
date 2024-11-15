@@ -14,7 +14,7 @@ public static void main (String[] args) {
             System.out.println("pasuxi sworia");
             break;
         case "merkurze":
-
+            System.out.println("pasuxi arasworia");
             break;
         case "veneraze":
             System.out.println("pasuxi arasworia");
